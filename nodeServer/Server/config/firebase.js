@@ -13,13 +13,7 @@ const serviceAccount = require("./firebaseService.json");
 //   measurementId: process.env.FIREBASE_MEASUREMENT_ID
 // };
 const firebaseConfig = {
-  apiKey: "AIzaSyBWLIJVu8rLKdenJ4MvUtha6F6-m8uPHQk",
-  authDomain: "chess-eadc1.firebaseapp.com",
-  projectId: "chess-eadc1",
-  storageBucket: "chess-eadc1.appspot.com",
-  messagingSenderId: "1028354129345",
-  appId: "1:1028354129345:web:dd729d23f1be4409b64340",
-  measurementId: "G-CZWCM0CYNL"
+  //not to be public
 };
 const fireApp = initializeApp(firebaseConfig);
 
